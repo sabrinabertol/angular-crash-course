@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "crash-course"
+  "defaultProject": "crash-course",
+  "cli": {
+    "analytics": false
+  }
 }
