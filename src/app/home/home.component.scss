@@ -1,36 +1,51 @@
 span {
-    font-weight: bold;
-    background: lightgray;
-    padding: .3em .8em;
-    cursor: pointer;
-    user-select: none;
+  font-weight: bold;
+  background: lightgray;
+  padding: .3em .8em;
+  cursor: pointer;
+  user-select: none;
 }
 
-h1 {
+.hello {
   text-align: center;
   margin: 50px auto;
+  width: 50%;
+
+  p {
+    line-height: 1.5em;
+  }
+
+  a {
+    color: lightgray;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darken(lightgray, 20%);
+    cursor: pointer;
+  }
 }
 
 .play-container {
-    padding: 2em;
-    margin-bottom: 1em;
-    border: 1px solid lightgray;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
-    input {
-        padding: 1em;
-        margin-bottom: 2em;
-    }
+  input {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
 }
 
 .active {
-    background-color: yellow;
-    border: 4px solid black;
+  background-color: yellow;
+  border: 4px solid black;
 }
 
 .notactive {
-    background-color: lightgray;
+  background-color: lightgray;
 }

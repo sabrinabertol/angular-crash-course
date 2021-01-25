@@ -14,11 +14,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  countClick(): void {
+  countClick() {
     this.clickCounter +=1;
   }
 
-  setClasses(): void {
+  setClasses() {
     let myClasses = {
       active: this.clickCounter > 5,
       notactive: this.clickCounter <= 5
